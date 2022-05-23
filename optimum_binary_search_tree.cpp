@@ -1,4 +1,5 @@
-/*#include <iostream>
+/*Given sequence k = k1 <k2 < … <kn of n sorted keys, with a search probability Pi for each key ki. Build the binary search tree that has least search cost given the access probability for each key.*/
+#include <iostream>
 using namespace std;
 
 struct node
@@ -106,7 +107,7 @@ public:
 		{
 			for(int j = i;j<n1;j++)
 				cout<<"r["<<i<<"]["<<j<<"] : "<<r[i][j]<<endl;
-		}*//*
+		}*/
 		return make_tree(r,key,0,n1-1,v,n1);
 
 		}
@@ -159,7 +160,7 @@ int main()
 	inorder(root);
 	cout<<endl;
 
-	*//*
+	*/
 
 	int n,n1;
 	cout<<"Enter the number of elements : ";
@@ -196,4 +197,3 @@ int main()
 
 	return 0;
 }
-*/
