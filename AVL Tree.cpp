@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 struct node
@@ -399,5 +399,3 @@ int main()
 	}while(ch != 0);
 	return 0;
 }
-
-*/
