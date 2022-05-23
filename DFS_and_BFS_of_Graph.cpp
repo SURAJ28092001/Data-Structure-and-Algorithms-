@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <map>
 #include <iterator>
 #include <algorithm>
@@ -181,9 +181,9 @@ int main()
 		}
 		cout<<endl;
 	}*/
-	/*cout<<"DFS of the graph is : "<<endl;
+	cout<<"DFS of the graph is : "<<endl;
 	DFS(vertices,n);
 	cout<<"\nBFS of the graph is : "<<endl;
 	BFS(vertices,n);
 }
-*/
+
