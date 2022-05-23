@@ -82,14 +82,6 @@ void DFS(node* vertices[],int n)
 
 }
 
-void display(node* queue[],int rear,int front,map<string,int> vis)
-{
-	for(int i = front;i<=rear;i++)
-	{
-		cout<<queue[i]->data<<" "<<vis[queue[i]->data]<<endl;
-	}
-}
-
 
 void BFS(node* vertices[],int n)
 {
